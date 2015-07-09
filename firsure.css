@@ -1,0 +1,91 @@
+/* CSS declarations go here */
+
+body{
+	height: 100%;
+	widht: 100%;
+	/*background-image: url('/hemp_background.jpg');*/
+}
+
+#home_container{
+	text-align: center;
+	height: auto;
+}
+
+#top_bar{
+	margin: 0 auto;
+	height: 5em;
+	background-color: #66CD00;
+	width: 100%;
+	background-image:
+    linear-gradient(
+      #000DBF, white
+    );
+}
+
+#bottom_bar{
+	margin: 0 auto;
+	height: 5em;
+	background-color: #0276FD;
+	width: 100%;
+	background-image:
+    linear-gradient(
+      white, #00FF59
+    );
+}
+
+#home_container_1{
+	padding-top: 12em;
+	text-align: center;
+}
+
+#fir_sure_sun{
+	margin: 0;
+}
+
+#doug_fir_photo{
+	content: url('/doug_fir_photo.jpg');
+	height: 180px;
+	width: 90px;
+	margin: 0 auto;
+}
+
+#fir_sure_sun{
+	content: url('/fir_sure_sun.png');
+	height: 400px;
+	width: 400px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.sun_menu_left{
+	padding-left: 3em;
+	padding-bottom: 5em;
+	float: left;
+}
+
+.sun_menu_right{
+	padding-right: 3em;
+	padding-bottom: 5em;
+	float: right;
+}
+
+.fir_sure_suns{
+	padding-top: 12em;
+	content: url('/fir_sure_nw.jpg');
+	height: 400px;
+	width: 400px;
+	margin: 0 auto;
+	clear:both;
+}
+
+
+#fir_sure_nw{
+	padding-top: 3em;
+	content: url('/fir_sure_nw.jpg');
+	height: 400px;
+	width: 400px;
+	margin: 0 auto;
+}
+
+
+
