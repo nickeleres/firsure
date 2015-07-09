@@ -58,15 +58,25 @@ body{
 }
 
 .sun_menu_left{
-	padding-left: 3em;
-	padding-bottom: 5em;
+	margin-left: 5em;
 	float: left;
+	border-color: #000DBF;
+  	color: #000DBF;
+  	border-style: solid;
+  	border-width: 2px;
+  	padding: 0.2%;
+  	margin-left: 1%;
 }
 
 .sun_menu_right{
-	padding-right: 3em;
-	padding-bottom: 5em;
+	margin-right: 3em;
 	float: right;
+	border-color: #00FF59;
+  	color: #00FF59;
+  	border-style: solid;
+  	border-width: 2px;
+  	padding: 0.2%;
+  	margin-left: 1%;
 }
 
 .fir_sure_suns{
