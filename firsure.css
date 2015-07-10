@@ -14,7 +14,7 @@ body{
 
 #sunrise{
 	margin: 0 auto;
-	width: 60%%;
+	width: 100%;
 	height: 120px;
 	bottom: 0px;
 	background-color: yellow;
@@ -26,6 +26,7 @@ body{
     visibility: hidden;
     box-shadow: inset 0 0 2em white;
     border-radius: 60%;
+    clear: both;
 }
 
 #home_container_1{
@@ -44,6 +45,8 @@ body{
 	height: 40%;
 	width: 15%;
 	margin: 0 auto;
+	float: left;
+	display: inline-block;
 }
 
 #fir_sure_sun{

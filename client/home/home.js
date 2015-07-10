@@ -50,7 +50,13 @@ Template.homeLayoutTemplate.events({
 
 		var scroll_height = ($(window).height()/1.5);
 
-		$("html, body").animate({ scrollTop: scroll_height + "px"}, 'slow');
+		// var $image = $('#doug_fir_photo');
+
+  //     	var scroll_height = $image.offset().top + $image.height();
+
+      	// var scroll_height = $image.offset().top + 0.5*($(window).height());
+
+      	$("html, body").animate({ scrollTop: scroll_height + "px"}, 'slow');
 
 	},
 
