@@ -63,6 +63,24 @@ Template.homeLayoutTemplate.events({
 
 		$("html, body").animate({ scrollTop: scroll_height + "px"}, 'slow');
 
+	},
+
+	'mouseenter .sun_menu': function(ev, template){
+		ev.preventDefault();
+
+		var $this = $(ev.target);
+
+		$this.css('border-color', '#0276FD');
+		$this.css('color', '#000DBF');
+	},
+
+	'mouseleave .sun_menu': function(ev, template){
+		ev.preventDefault();
+
+		var $this = $(ev.target);
+
+		$this.css('border-color', '#000DBF');
+		$this.css('color', '#0276FD');
 	}
 
 });
