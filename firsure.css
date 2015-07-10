@@ -52,6 +52,7 @@ body{
 	width: 400px;
 	margin: 0 auto;
 	clear: both;
+	padding-bottom: 30%;
 }
 
 .sun_menu{
@@ -67,7 +68,6 @@ body{
 }
 
 #fir_sure_nw{
-	padding-top: 30%;
 	padding-bottom: 5%;
 	content: url('/fir_sure_nw.jpg');
 	height: 300px;
