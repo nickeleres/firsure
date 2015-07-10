@@ -29,6 +29,13 @@ body{
     clear: both;
 }
 
+.trees{
+	margin: 0 auto;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
 #home_container_1{
 	padding-top: 20%;
 	text-align: center;
@@ -40,12 +47,11 @@ body{
 	margin: 0;
 }
 
-#doug_fir_photo{
+.doug_fir_photo{
 	content: url('/doug_fir_photo.jpg');
 	height: 40%;
 	width: 15%;
 	margin: 0 auto;
-	float: left;
 	display: inline-block;
 }
 

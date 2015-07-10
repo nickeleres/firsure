@@ -9,7 +9,7 @@ Router.route('home', {
 
 Template.homeLayoutTemplate.events({
 
-	'mouseenter #doug_fir_photo': function(ev, template){
+	'mouseenter .doug_fir_photo': function(ev, template){
 
 		var container = template.$('#home_container');
 
@@ -20,7 +20,7 @@ Template.homeLayoutTemplate.events({
 		sunrise.css('visibility', 'visible');
 	},
 
-	'mouseleave #doug_fir_photo': function(ev, template){
+	'mouseleave .doug_fir_photo': function(ev, template){
 
 		var container = template.$('#home_container');
 
@@ -45,7 +45,7 @@ Template.homeLayoutTemplate.events({
 		suns.css('opacity', 0.7);
 	},
 
-	'click #doug_fir_photo': function(ev, template){
+	'click .doug_fir_photo': function(ev, template){
 		ev.preventDefault();
 
 		var scroll_height = ($(window).height()/1.5);
