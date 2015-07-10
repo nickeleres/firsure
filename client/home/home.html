@@ -1,17 +1,16 @@
 <template name='homeLayoutTemplate'>
 	<div id='home_container'>
-		<div id='top_bar'></div>
 		<div id='doug_fir_photo'></div>
-		<div id='bottom_bar'></div>
+		<div id='sunrise'></div>
 	</div>
 	{{> homeTemplate}}
 </template>
 
 <template name='homeTemplate'>
 	<div id='home_container_1'>
-		<a class = 'sun_menu_left'>Learn More</a>
+		<p><a class = 'sun_menu' href="{{pathFor 'about'}}">Learn More</a></p>
+		<p><a class = 'sun_menu' href="{{pathFor 'products'}}">View Products</a></p>
 		<div id='fir_sure_sun'></div>
-		<div class = 'sun_menu_right'>View Products</div>
-		<div class='fir_sure_suns'></div>
+		<div id='fir_sure_nw'></div>
 	</div>
 </template>

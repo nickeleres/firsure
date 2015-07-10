@@ -9,51 +9,66 @@ Router.route('home', {
 
 Template.homeLayoutTemplate.events({
 
-	'mouseenter #home_container': function(ev, template){
+	'mouseenter #doug_fir_photo': function(ev, template){
 
 		var container = template.$('#home_container');
 
 		container.css('opacity', 0.4);
+
+		var sunrise = template.$('#sunrise');
+
+		sunrise.css('visibility', 'visible');
 	},
 
-	'mouseleave #home_container': function(ev, template){
+	'mouseleave #doug_fir_photo': function(ev, template){
 
 		var container = template.$('#home_container');
 
 		container.css('opacity', 1);
+
+		var sunrise = template.$('#sunrise');
+
+		sunrise.css('visibility', 'hidden');
 	},
 
-	'mouseenter .fir_sure_suns': function(ev, template){
+	'mouseenter #fir_sure_nw': function(ev, template){
 
-		var suns = template.$('.fir_sure_suns');
+		var suns = template.$('#fir_sure_nw');
 
 		suns.css('opacity', 0.4);
 	},
 
-	'mouseleave .fir_sure_suns': function(ev, template){
+	'mouseleave #fir_sure_nw': function(ev, template){
 
-		var suns = template.$('.fir_sure_suns');
+		var suns = template.$('#fir_sure_nw');
 
-		suns.css('opacity', 1);
+		suns.css('opacity', 0.7);
 	},
 
-	'click #home_container': function(ev, template){
+	'click #doug_fir_photo': function(ev, template){
 		ev.preventDefault();
 
-		var scroll_height = ($(window).height()/2);
+		var scroll_height = ($(window).height()/1.5);
 
 		$("html, body").animate({ scrollTop: scroll_height + "px"}, 'slow');
 
 	},
 
-	'click .fir_sure_suns': function(ev, template){
+	'click #fir_sure_nw': function(ev, template){
 		ev.preventDefault();
 
 		// window.scrollTo(0, 0);
 
-		var scroll_height = ($(window).height()/2);
+		var scroll_height = ($(window).height()/1.5);
 
 		$("html, body").animate({ scrollTop: scroll_height + "px"}, 'slow');
 
 	}
+
 });
+
+
+
+
+
+
