@@ -48,13 +48,13 @@ Template.homeLayoutTemplate.events({
 	'click .doug_fir_photo': function(ev, template){
 		ev.preventDefault();
 
-		var scroll_height = ($(window).height()/1.5);
+		// var scroll_height = ($(window).height()/1.5);
 
-		// var $image = $('#doug_fir_photo');
+		var $image = $('.doug_fir_photo');
 
-  //     	var scroll_height = $image.offset().top + $image.height();
+      	var scroll_height = 2*($image.offset().top) + 2*($image.height());
 
-      	// var scroll_height = $image.offset().top + 0.5*($(window).height());
+      	// var scroll_height = $image.offset().top + ($(window).height());
 
       	$("html, body").animate({ scrollTop: scroll_height + "px"}, 'slow');
 
@@ -65,7 +65,11 @@ Template.homeLayoutTemplate.events({
 
 		// window.scrollTo(0, 0);
 
+		var $image = $('#fir_sure_nw');
+
 		var scroll_height = ($(window).height()/1.5);
+
+		// var scroll_height = $image.offset().top + 2*($image.height());
 
 		$("html, body").animate({ scrollTop: scroll_height + "px"}, 'slow');
 

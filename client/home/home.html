@@ -1,17 +1,19 @@
 <template name='homeLayoutTemplate'>
 	<div id='home_container'>
 		<div class="trees">
-			<div class='doug_fir_photo'></div>
-			<div class='doug_fir_photo'></div>
-			<div class='doug_fir_photo'></div>
-			<div class='doug_fir_photo'></div>
+			<div class='doug_fir_top_photo doug_fir_photo'></div>
+			<div class='doug_fir_top_photo doug_fir_photo'></div>
+			<div class='doug_fir_top_photo doug_fir_photo'></div>
+			<div class='doug_fir_top_photo doug_fir_photo'></div>
+			<div class='doug_fir_top_photo doug_fir_photo'></div>
+			<div class='doug_fir_top_photo doug_fir_photo'></div>
 		</div>
-		<div class="trees">
+		<!-- <div class="trees">
 			<div class='doug_fir_photo'></div>
 			<div class='doug_fir_photo'></div>
 			<div class='doug_fir_photo'></div>
 			<div class='doug_fir_photo'></div>
-		</div>
+		</div> -->
 		<div id='sunrise'></div>
 	</div>
 	{{> homeTemplate}}
@@ -19,9 +21,10 @@
 
 <template name='homeTemplate'>
 	<div id='home_container_1'>
+		<div id='fir_sure_sun'></div>
 		<p><a class = 'sun_menu' href="{{pathFor 'about'}}">Learn More</a></p>
 		<p><a class = 'sun_menu' href="{{pathFor 'products'}}">View Products</a></p>
-		<div id='fir_sure_sun'></div>
+		<div id='break'></div>
 		<div id='fir_sure_nw'></div>
 	</div>
 </template>
