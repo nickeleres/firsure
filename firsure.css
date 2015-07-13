@@ -3,7 +3,7 @@
 body{
 	height: 100%;
 	widht: 100%;
-	/*background-image: url('/hemp_background.jpg');*/
+	font-family: Lucida Grande;
 }
 
 #home_container{
@@ -101,6 +101,41 @@ body{
 
 #break{
 	padding-bottom: 30%;
+}
+
+/*ABOUT PAGE*/
+
+#about_container{
+	padding: 5%;
+	background-image: url('/fir_sure_nw.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.about_text{
+	color: black;
+	font-size: 26px;
+	opacity: 1;
+}
+
+.my-container {
+    position: relative;
+    padding: 5%;
+}
+.my-container h1 {
+	text-align: center;
+	color: white;
+    padding: 9%;
+    position: relative;
+    z-index: 2;
+} 
+.my-container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.2;
 }
 
 
