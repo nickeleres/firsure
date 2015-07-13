@@ -68,8 +68,8 @@ body{
 
 #fir_sure_sun{
 	content: url('/fir_sure_sun.png');
-	height: 30%;
-	width: 30%;
+	height: 40%;
+	width: 40%;
 	margin: 0 auto;
 	clear: both;
 	padding-bottom: 5%;
@@ -91,12 +91,13 @@ body{
 
 #fir_sure_nw{
 	content: url('/fir_sure_nw.jpg');
-	height: 300px;
-	width: 300px;
+	height: 30%;
+	width: 30%;
 	margin: 0 auto;
 	clear:both;
 	opacity: 0.7;
-	margin: 0auto;
+	margin: 0 auto;
+	padding-bottom: 5%;
 }
 
 #break{
