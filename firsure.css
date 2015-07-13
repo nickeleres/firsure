@@ -45,6 +45,11 @@ body{
 
 #fir_sure_sun{
 	margin: 0;
+	display: none;
+}
+
+.home_menu{
+	display: none;
 }
 
 .doug_fir_photo{
@@ -63,16 +68,17 @@ body{
 
 #fir_sure_sun{
 	content: url('/fir_sure_sun.png');
-	height: 400px;
-	width: 400px;
+	height: 30%;
+	width: 30%;
 	margin: 0 auto;
 	clear: both;
 	padding-bottom: 5%;
 }
 
 .sun_menu{
-	border-color: #000DBF;
-  	color: #0276FD;
+	border-color: black;
+  	color: black;
+  	background-color: white;
   	border-style: solid;
   	border-width: 2px;
   	padding: 0.3%;
@@ -80,6 +86,7 @@ body{
   	margin: 0 auto;
   	text-decoration: none;
   	text-align: center;
+  	font-family: Lucida Grande;
 }
 
 #fir_sure_nw{

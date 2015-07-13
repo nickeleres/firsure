@@ -58,6 +58,11 @@ Template.homeLayoutTemplate.events({
 
       	$("html, body").animate({ scrollTop: scroll_height + "px"}, 'slow');
 
+      	// $('#fir_sure_sun').show();
+
+      	$('#fir_sure_sun').fadeIn(750);
+      	$('.home_menu').fadeIn(750);
+
 	},
 
 	'click #fir_sure_nw': function(ev, template){
@@ -80,8 +85,9 @@ Template.homeLayoutTemplate.events({
 
 		var $this = $(ev.target);
 
-		$this.css('border-color', '#0276FD');
-		$this.css('color', '#000DBF');
+		$this.css('border-color', 'white');
+		$this.css('background-color', 'black');
+		$this.css('color', 'white');
 	},
 
 	'mouseleave .sun_menu': function(ev, template){
@@ -89,8 +95,23 @@ Template.homeLayoutTemplate.events({
 
 		var $this = $(ev.target);
 
-		$this.css('border-color', '#000DBF');
-		$this.css('color', '#0276FD');
+		$this.css('border-color', 'black');
+		$this.css('background-color', 'white');
+		$this.css('color', 'black');
+	},
+
+	'mouseenter #fir_sure_sun': function(ev, template){
+		ev.preventDefault();
+
+		$('#fir_sure_sun').css('height', '43%');
+		$('#fir_sure_sun').css('width', '43%');
+	},
+
+	'mouseleave #fir_sure_sun': function(ev, template){
+		ev.preventDefault();
+
+		$('#fir_sure_sun').css('height', '40%');
+		$('#fir_sure_sun').css('width', '40%');
 	}
 
 });
