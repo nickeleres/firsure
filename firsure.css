@@ -22,7 +22,7 @@ body{
 	opacity: 0.4;
 	background-image:
     linear-gradient(
-      white, yellow, orange
+      white, orange, yellow
     );
     visibility: hidden;
     box-shadow: inset 0 0 2em white;
@@ -47,6 +47,7 @@ body{
 #fir_sure_sun{
 	margin: 0;
 	display: none;
+	margin-top: 5%;
 }
 
 .home_menu{
