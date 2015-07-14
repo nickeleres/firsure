@@ -18,6 +18,8 @@ Template.homeLayoutTemplate.events({
 		var sunrise = template.$('#sunrise');
 
 		sunrise.css('visibility', 'visible');
+
+		$('.doug_fir_photo').css('z-index', '5');
 	},
 
 	'mouseleave .doug_fir_photo': function(ev, template){
@@ -113,41 +115,6 @@ Template.homeLayoutTemplate.events({
 	}
 
 });
-
-if (Meteor.isCordova) {
-
-	Template.homeLayoutTemplate.events({
-
-		'click .doug_fir_photo': function(ev, template){
-		ev.preventDefault();
-
-		// var scroll_height = ($(window).height()/1.5);
-
-		var $image = $('.doug_fir_photo');
-
-      	var scroll_height = 2*($image.offset().top) + 2*($image.height());
-
-      	// var scroll_height = $image.offset().top + ($(window).height());
-
-      	$("html, body").animate({ scrollTop: scroll_height + "px"}, 'slow');
-
-      	// $('#fir_sure_sun').show();
-
-      	$('#fir_sure_sun').fadeIn(750);
-      	$('.home_menu').fadeIn(750);
-
-		}
-
-	});
-}
-
-$(document).ready(function(){
-
-	$('body').on('click', function(){
-
-		// alert('body clicked');
-	});
-})
 
 
 
