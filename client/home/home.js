@@ -102,7 +102,7 @@ Template.homeLayoutTemplate.events({
 		$('#fir_sure_sun').css('height', '46%');
 		$('#fir_sure_sun').css('width', '46%');
 
-		$('.sun_menu').css('visibility', 'hidden');
+		$('.sun_menu').css('display', 'none');
 	},
 
 	'mouseleave #fir_sure_sun': function(ev, template){
@@ -111,7 +111,7 @@ Template.homeLayoutTemplate.events({
 		$('#fir_sure_sun').css('height', '40%');
 		$('#fir_sure_sun').css('width', '40%');
 
-		$('.sun_menu').css('visibility', 'visible');
+		$('.sun_menu').css('display', 'inline-block');
 	}
 
 });
