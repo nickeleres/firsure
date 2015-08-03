@@ -1,29 +1,25 @@
 <template name='homeLayoutTemplate'>
 	<div id='home_container'>
 		<div class="trees">
-			<div class='doug_fir_top_photo doug_fir_photo'></div>
-			<div class='doug_fir_top_photo doug_fir_photo'></div>
-			<div class='doug_fir_top_photo doug_fir_photo'></div>
-			<div class='doug_fir_top_photo doug_fir_photo'></div>
-			<div class='doug_fir_top_photo doug_fir_photo'></div>
+			<div class='doug_fir_top_bottom_photo doug_fir_photo'></div>
 		</div>
-		<!-- <div class="trees">
-			<div class='doug_fir_photo'></div>
-			<div class='doug_fir_photo'></div>
-			<div class='doug_fir_photo'></div>
-			<div class='doug_fir_photo'></div>
-		</div> -->
-		<div id='sunrise'></div>
 	</div>
 	{{> homeTemplate}}
 </template>
 
 <template name='homeTemplate'>
 	<div id='home_container_1'>
-		<div id='fir_sure_sun'></div>
-		<p class='home_menu'><a class = 'sun_menu' href="{{pathFor 'about'}}">LEARN MORE</a></p>
-		<!-- <p class='home_menu'><a class = 'sun_menu' href="{{pathFor 'products'}}">VIEW PRODUCTS</a></p> -->
 		<div id='break'></div>
-		<div id='fir_sure_nw'></div>
+		<a href="{{pathFor 'about'}}"><div id='fir_sure_sun'></div></a>
+		<div id='break'></div>
+		<div class="trees_bottom">
+			<div class='doug_fir_top_bottom_photo doug_fir_photo'></div>
+		</div>
+		<div id='social_media_bar'>
+			<div class="social_media_button"></div>
+			<div class="social_media_button"></div>
+			<div class="social_media_button"></div>
+			<div class="social_media_button"></div>
+		</div>
 	</div>
 </template>

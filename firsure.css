@@ -38,7 +38,6 @@ body{
 }
 
 #home_container_1{
-	padding-top: 15%;
 	text-align: center;
 	height: 100%;
 	width: 100%;
@@ -46,29 +45,25 @@ body{
 
 #fir_sure_sun{
 	margin: 0;
-	display: none;
 	margin-top: 5%;
 }
 
-.home_menu{
-	display: none;
-}
-
 .doug_fir_photo{
-	content: url('/doug_fir_photo.jpg');
-	height: 40%;
-	width: 15%;
-	margin: 0 auto;
+	content: url('/firtreex2.png');
 	display: inline-block;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
 	padding-left: 3%;
 	padding-right: 3%;
 	padding-top: 3%;
 }
 
 
-.doug_fir_top_photo{
-	height: 30%;
-	width: 10%;
+.doug_fir_top_bottom_photo{
+	height: 60%;
+	width: 90%;
+	padding-bottom: 5%;
 }
 
 #fir_sure_sun{
@@ -94,19 +89,24 @@ body{
   	margin-top: 5%;
 }
 
-#fir_sure_nw{
-	content: url('/fir_sure_nw.jpg');
-	height: 30%;
-	width: 30%;
-	margin: 0 auto;
-	clear:both;
-	opacity: 0.7;
-	margin: 0 auto;
+#break{
+	padding-bottom: 20%;
+}
+
+#social_media_bar{
+	text-align: center;
 	padding-bottom: 5%;
 }
 
-#break{
-	padding-bottom: 30%;
+.social_media_button{
+	height: 10%;
+	width: 10%;
+	padding-left: 2%;
+	padding-right: 2%;
+	display: inline-block;
+	margin: 0 auto;
+	content: url('/fir_sure_nw.jpg');
+
 }
 
 /*ABOUT PAGE*/
@@ -145,7 +145,7 @@ body{
     opacity: 0.2;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 800px){
 	#sunrise{
 		visibility: visible;
 		opacity: 0.2;

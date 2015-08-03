@@ -17,8 +17,6 @@ Template.homeLayoutTemplate.events({
 
 		var sunrise = template.$('#sunrise');
 
-		sunrise.css('visibility', 'visible');
-
 		$('.doug_fir_photo').css('z-index', '5');
 	},
 
@@ -29,22 +27,20 @@ Template.homeLayoutTemplate.events({
 		container.css('opacity', 1);
 
 		var sunrise = template.$('#sunrise');
-
-		sunrise.css('visibility', 'hidden');
 	},
 
-	'mouseenter #fir_sure_nw': function(ev, template){
+	'mouseenter .trees_bottom': function(ev, template){
 
-		var suns = template.$('#fir_sure_nw');
+		var trees = template.$('.trees_bottom');
 
-		suns.css('opacity', 0.4);
+		trees.css('opacity', 0.4);
 	},
 
-	'mouseleave #fir_sure_nw': function(ev, template){
+	'mouseleave .trees_bottom': function(ev, template){
 
-		var suns = template.$('#fir_sure_nw');
+		var trees = template.$('.trees_bottom');
 
-		suns.css('opacity', 0.7);
+		trees.css('opacity', 1);
 	},
 
 	'click .doug_fir_photo': function(ev, template){
