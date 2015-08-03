@@ -97,6 +97,10 @@ body{
 	padding-bottom: 20%;
 }
 
+#bottom{
+	position: absolute;
+}
+
 #social_media_bar{
 	text-align: center;
 	padding-bottom: 5%;
