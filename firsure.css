@@ -74,6 +74,10 @@ body{
 	clear: both;
 }
 
+#fir_sure_sun:hover{
+	display: inline-block;
+}
+
 .sun_menu{
 	border-color: black;
   	color: black;
@@ -99,14 +103,29 @@ body{
 }
 
 .social_media_button{
-	height: 10%;
-	width: 10%;
+	height: 5%;
+	width: 5%;
 	padding-left: 2%;
 	padding-right: 2%;
 	display: inline-block;
 	margin: 0 auto;
-	content: url('/fir_sure_nw.jpg');
 
+}
+
+#facebook{
+	content: url('/facebook.png');
+}
+
+#twitter{
+	content: url('/twitter.png');
+}
+
+#instagram{
+	content: url('/instagram.png');
+}
+
+#big_cartel{
+	content: url('/big_cartel.png');
 }
 
 /*ABOUT PAGE*/

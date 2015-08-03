@@ -72,25 +72,6 @@ Template.homeLayoutTemplate.events({
 
 	},
 
-	'mouseenter .sun_menu': function(ev, template){
-		ev.preventDefault();
-
-		var $this = $(ev.target);
-
-		$this.css('border-color', 'white');
-		$this.css('background-color', 'black');
-		$this.css('color', 'white');
-	},
-
-	'mouseleave .sun_menu': function(ev, template){
-		ev.preventDefault();
-
-		var $this = $(ev.target);
-
-		$this.css('border-color', 'black');
-		$this.css('background-color', 'white');
-		$this.css('color', 'black');
-	},
 
 	'mouseenter #fir_sure_sun': function(ev, template){
 		ev.preventDefault();
@@ -98,7 +79,6 @@ Template.homeLayoutTemplate.events({
 		$('#fir_sure_sun').css('height', '46%');
 		$('#fir_sure_sun').css('width', '46%');
 
-		$('.sun_menu').css('display', 'none');
 	},
 
 	'mouseleave #fir_sure_sun': function(ev, template){
@@ -106,8 +86,6 @@ Template.homeLayoutTemplate.events({
 
 		$('#fir_sure_sun').css('height', '40%');
 		$('#fir_sure_sun').css('width', '40%');
-
-		$('.sun_menu').css('display', 'inline-block');
 	}
 
 });
