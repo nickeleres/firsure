@@ -168,17 +168,3 @@ body{
     opacity: 0.2;
 }
 
-@media screen and (max-width: 800px){
-	#sunrise{
-		visibility: visible;
-		opacity: 0.2;
-	}
-
-	#fir_sure_sun, .home_menu{
-		margin: 0 auto;
-		display: block;
-		height: 40%;
-		width: 40%;
-	}
-}
-
